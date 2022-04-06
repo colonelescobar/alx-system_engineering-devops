@@ -1,2 +1,2 @@
 #!/bin/bash
-bestschol=$(($stir + $water))
+bestschool=$(($stir + $water))
