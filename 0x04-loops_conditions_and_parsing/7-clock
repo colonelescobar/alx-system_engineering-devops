@@ -4,9 +4,9 @@
 #	-display minutes from 1 to 59
 #Requirements:
 #	-You must use the while loop (for and until are forbidden
-
 Hour=1
 Minutes=1
+echo "Hour: 0"
 while [ $Hour -ne 14 ]
 do 
 	echo "$Minutes"
@@ -15,11 +15,9 @@ do
 	then
 		if [ $Hour -ne 13 ]
 		then
-		echo "Hour: $Hour"
+			echo "Hour: $Hour"
 		fi
-
-		Minutes=1
+		Minutes=1		
 		((Hour++))
 	fi
-	
 done
